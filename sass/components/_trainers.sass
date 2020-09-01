@@ -2,3 +2,39 @@
   padding-top: 65px
   &-subtitle
     margin-bottom: 64px
+  &-box
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    margin: 0 auto
+
+  &-info
+    display: flex
+    flex-direction: column
+    &::before
+      content: ""
+      width: 1px
+    &__surname
+      margin-top: 5px
+      +AvenirBold
+        
+
+  &-card
+    display: flex
+    flex-direction: column
+    margin-bottom: 72px
+    &:not(:nth-child(4)):not(:last-child)
+      margin-right: 88px
+ 
+    &__img
+      width: 180px
+      height: 180px
+      margin-bottom: 25px
+      
+
+        
+      
+
+      
+
+
